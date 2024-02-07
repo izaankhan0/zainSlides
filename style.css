@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F5F5F8;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    /* min-height:70%; */
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    /* height: ; */
+    align-items: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 365px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 60vh;
+    transition: 200ms ease-in-out !important;
+    transform: scale(0.9);
+    /* position: absolute; */
+    /* position: relative; */
+      /* background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); */
+}
+
+img{
+    height: 200px;
+    border-radius: 50%;
+    /* user-drag: none; */
+    
+}
+.card3 > .img > img{
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    object-position: 25% 25%;
+}
+
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+h1, h2, p{
+    text-align: center;
+    user-select: none;
+}
+h1{
+    margin-bottom: 3px;
+    font-size: 30px;
+}
+h2{
+    margin-bottom: 14px;
+    font-weight: 500;
+}
+p{
+    
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 20px;
+    font-weight: 500;
+    
+}
+
+.card:hover{
+    /* overflow: visible; */
+    /* transform: scaleY(1.1); */
+    /* background-color: #fff;  */
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2); /* This is the magic shadow for levitation */
+    color: wheat;
+    background-color: rgb(50, 0, 0);
+    transform: scale(1);
+    
+}
+
+.card1:hover{
+    height: 600px;
+   padding-top: 80px;
+    /* position: relative; */
+    
+} 
+.card2:hover{
+    height: 660px;
+    
+} 
+.card3:hover{
+    height: 620px;
+
+}
+
+@media screen {
+    
+}

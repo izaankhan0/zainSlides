@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zain Merchant</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cards">
+            <div class="card1 card">
+                <div class="img">
+
+                    <img draggable="false" src="https://cdn.fs.teachablecdn.com/7XKfy1kQSWQNdwAWav2g" alt="">
+                </div>
+                <h1>Huzefa Tahir</h1>
+                <h2>CS Distinction 2018</h2>
+                <p>Sir Zain made sure his students had all the bases covered. He would go beyond what was expected to help out his students and would take out time to help us individually outside of class. The classes were never boring and Sir Zain made good use of tools and softwares available online to really help us understand concepts.</p>
+            </div>
+            <div class="card2 card">
+                <div class="img">
+
+                    <img draggable="false" src="https://cdn.fs.teachablecdn.com/cveeyG7bQXS8ddtyUcme" alt="">
+                </div>
+                <h1>Abdul Ali Khan</h1>
+                <h2>CS Distinction 2019</h2>
+                <p>Sir Zain is an extremely passionate teacher who makes learning computer science engaging for everyone. His teaching strategies for A Level Computer Science are highly effective, and his approach ensures that students master each specification of the course. He also sharpened our problem-solving skills by giving us fun open-ended tasks. Even today, I regularly apply the innovative problem-solving techniques that he taught us in my professional life.
+<br>
+                    His valuable guidance and support enabled me to achieve my goal of obtaining a distinction in the A Level Computer Science Exams of 2019.</p>
+            </div>
+            <div class="card3 card">
+                <div class="img">
+
+                    <img draggable="false" src="https://cdn.fs.teachablecdn.com/hoNQVYNsQEaJrJqRffyw" alt="">
+                </div>
+                <h1>Muhammad Ahmed</h1>
+                <h2>CS Distinction 2021</h2>
+                <p>Sir Zain is an exceptional teacher who constantly motivates his students to do better. He regularly checks our concepts and makes sure we show improvement. He has the ability to cover a lot in just a few months and always gives sincere advice. As a private candidate, I often doubted myself but he always motivated and guided me. Most importantly he puts in his own effort and his notes/topical past papers were extremely helpful. His help, guidance and motivation helped me achieve my goal of achieving not just an A* but also a DISTINCTION!! :-)</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      const card1 = document.querySelector('.card1');
+const card2 = document.querySelector('.card2');
+const card3 = document.querySelector('.card3');
+const container = document.querySelector('.container'); // Replace 'container' with the actual class or ID of your container div
+
+card1.addEventListener('mouseover', () => {
+    card2.style.filter = 'blur(5px)'; // Adjust the blur intensity as needed
+    card3.style.filter = 'blur(5px)';
+    // container.style.filter = 'blur(5px)';
+});
+
+// Reset the blur when mouse leaves card1
+card1.addEventListener('mouseout', () => {
+    card2.style.filter = 'none';
+    card3.style.filter = 'none';
+    // container.style.filter = 'none';
+});
+card2.addEventListener('mouseover', () => {
+    card1.style.filter = 'blur(5px)'; // Adjust the blur intensity as needed
+    card3.style.filter = 'blur(5px)';
+    // container.style.filter = 'blur(5px)';
+});
+
+// Reset the blur when mouse leaves card1
+card2.addEventListener('mouseout', () => {
+    card1.style.filter = 'none';
+    card3.style.filter = 'none';
+    // container.style.filter = 'none';
+});
+card3.addEventListener('mouseover', () => {
+    card2.style.filter = 'blur(5px)'; // Adjust the blur intensity as needed
+    card1.style.filter = 'blur(5px)';
+    // container.style.filter = 'blur(5px)';
+});
+
+// Reset the blur when mouse leaves card1
+card3.addEventListener('mouseout', () => {
+    card2.style.filter = 'none';
+    card1.style.filter = 'none';
+    // container.style.filter = 'none';
+});
+
+
+    </script>
+</body>
+</html>
